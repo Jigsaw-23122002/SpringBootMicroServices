@@ -1,0 +1,334 @@
+{
+    "meta": {
+        "__export_time": 1724158328232,
+        "__export_app": "firecamp_v2.7.1 ",
+        "__export_version": 1
+    },
+    "project": {
+        "name": "Company",
+        "description": "",
+        "auth": {},
+        "scripts": {
+            "pre": "",
+            "post": "",
+            "test": ""
+        },
+        "meta": {
+            "active_auth": "no_auth"
+        }
+    },
+    "modules": [],
+    "requests": [
+        {
+            "meta": {
+                "name": "GET",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/companies",
+                "auth": "",
+                "host": "localhost:8081",
+                "port": "8081",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8081",
+                "href": "http://localhost:8081/companies",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "GET",
+            "headers": [],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {},
+                    "meta": {
+                        "active_body_type": "noBody",
+                        "is_default": true
+                    }
+                }
+            ]
+        },
+        {
+            "meta": {
+                "name": "GET",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/companies/1",
+                "auth": "",
+                "host": "localhost:8081",
+                "port": "8081",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8081",
+                "href": "http://localhost:8081/companies/1",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "GET",
+            "headers": [],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {},
+                    "meta": {
+                        "active_body_type": "noBody",
+                        "is_default": true
+                    }
+                }
+            ]
+        },
+        {
+            "meta": {
+                "name": "PUT",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/companies/1",
+                "auth": "",
+                "host": "localhost:8081",
+                "port": "8081",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8081",
+                "href": "http://localhost:8081/companies/1",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "PUT",
+            "headers": [],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {},
+                    "meta": {
+                        "active_body_type": "noBody",
+                        "is_default": true
+                    }
+                }
+            ]
+        },
+        {
+            "meta": {
+                "name": "DELETE",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/companies/1",
+                "auth": "",
+                "host": "localhost:8081",
+                "port": "8081",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8081",
+                "href": "http://localhost:8081/companies/1",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "DELETE",
+            "headers": [],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {},
+                    "meta": {
+                        "active_body_type": "noBody",
+                        "is_default": true
+                    }
+                }
+            ]
+        },
+        {
+            "meta": {
+                "name": "POST",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/companies",
+                "auth": "",
+                "host": "localhost:8081",
+                "port": "8081",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8081",
+                "href": "http://localhost:8081/companies",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "POST",
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text",
+                    "disable": false
+                }
+            ],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {
+                        "application/json": {
+                            "value": "{\r\n    \"name\":\"Company 1\",\r\n    \"description\":\"Description 1\"\r\n}",
+                            "headers": []
+                        }
+                    },
+                    "meta": {
+                        "active_body_type": "application/json",
+                        "is_default": true
+                    }
+                }
+            ]
+        }
+    ],
+    "environments": [
+        {
+            "name": "Development",
+            "variables": {
+                "variable_name": "variable_value"
+            }
+        },
+        {
+            "name": "Production",
+            "variables": {
+                "variable_name": "variable_value"
+            }
+        }
+    ]
+}

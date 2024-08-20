@@ -1,0 +1,163 @@
+{
+    "meta": {
+        "__export_time": 1724158318818,
+        "__export_app": "firecamp_v2.7.1 ",
+        "__export_version": 1
+    },
+    "project": {
+        "name": "Jobs",
+        "description": "",
+        "auth": {},
+        "scripts": {
+            "pre": "",
+            "post": "",
+            "test": ""
+        },
+        "meta": {
+            "active_auth": "no_auth"
+        }
+    },
+    "modules": [],
+    "requests": [
+        {
+            "meta": {
+                "name": "POST",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/jobs",
+                "auth": "",
+                "host": "localhost:8082",
+                "port": "8082",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8082",
+                "href": "http://localhost:8082/jobs",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "POST",
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text",
+                    "disable": false
+                }
+            ],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {
+                        "application/json": {
+                            "value": "{\r\n    \"title\":\"Software Engineer needed 2\",\r\n    \"description\":\"Test description\",\r\n    \"minSalary\":30000,\r\n    \"maxSalary\":40000,\r\n    \"location\":\"New Jersey\",\r\n    \"companyId\":2\r\n}",
+                            "headers": []
+                        }
+                    },
+                    "meta": {
+                        "active_body_type": "application/json",
+                        "is_default": true
+                    }
+                }
+            ]
+        },
+        {
+            "meta": {
+                "name": "GET",
+                "description": "",
+                "active_auth": "inherit",
+                "type": "api",
+                "version": "1.0",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "url": {
+                "slashes": true,
+                "protocol": "http:",
+                "hash": "",
+                "query": "",
+                "pathname": "/jobs",
+                "auth": "",
+                "host": "localhost:8082",
+                "port": "8082",
+                "hostname": "localhost",
+                "password": "",
+                "username": "",
+                "origin": "http://localhost:8082",
+                "href": "http://localhost:8082/jobs",
+                "query_params": [],
+                "path_params": []
+            },
+            "method": "GET",
+            "headers": [],
+            "config": {
+                "ORIGIN": "",
+                "USERAGENT": "",
+                "TIMEOUT_MS": 0,
+                "REJECT_UNAUTHORIZED": false,
+                "FOLLOWLOCATION": true,
+                "MAXREDIRS": -1,
+                "HTTP_VERSION": "V2Tls"
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "bodies": [
+                {
+                    "name": "Default",
+                    "body": {},
+                    "meta": {
+                        "active_body_type": "noBody",
+                        "is_default": true
+                    }
+                }
+            ]
+        }
+    ],
+    "environments": [
+        {
+            "name": "Production",
+            "variables": {
+                "variable_name": "variable_value"
+            }
+        },
+        {
+            "name": "Development",
+            "variables": {
+                "variable_name": "variable_value"
+            }
+        }
+    ]
+}
